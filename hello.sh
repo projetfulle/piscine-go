@@ -1,3 +1,3 @@
-hello fulgence#! /bin/bash
+#! /bin/bash
 
-echo "Hello projetfulle!"
+echo "hello world"
