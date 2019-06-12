@@ -1,4 +1,4 @@
 #! /bin/bash
-id=$(curl https://api.github.com/users/Mousouba | jq '.id')
+id=$(curl https://api.github.com/users/projetfulle | jq '.id')
 echo $id
 
