@@ -1,4 +1,2 @@
 #! /bin/bash
-id=$(curl https://api.github.com/users/projetfulle | jq '.id')
-echo $id
-
+curl https://api.github.com/users | jq ' .[] | select( .login == "projetfulle" )'
